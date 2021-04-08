@@ -812,9 +812,20 @@ ol ol {
 }
 */
 
+label:before, label:after {
+    content: "\a";
+    white-space: pre;
+}
+
+input, textarea {
+    width: 100%;
+    font: .9em/1.1 Helvetica, Arial, Verdana, sans-serif;
+}
+
 button {
   font-size: 75%;
   padding: 0.3em;
+  width: 100%;
 }
 
 a.char {
@@ -910,4 +921,9 @@ figure {
 
 .references h4 {
   margin-bottom: 0.5rem;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 110%;
 }
