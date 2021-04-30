@@ -795,6 +795,12 @@ ol ol {
   font-style: italic;
 }
 
+.updates {
+  color: #900;
+  font-style: italic;
+}
+
+
 #banner h1 {
   margin-bottom: 0;
 }
