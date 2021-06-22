@@ -1,6 +1,6 @@
 # Workshop Sessions
 
-## Workshop 1: June 25, 06:00-08:00 UTC
+## Session 1: June 25, 06:00-08:00 UTC
 
 ### Times in various timezones:
 * June 24, 23:00 PDT
@@ -13,7 +13,7 @@
 * June 25, 14:00 CST
 * June 25, 15:00 JST/KST
 
-### Session structure:
+### Agenda:
 1. Scene setting (10min)
     * Goals and expectations for the workshop, i.e., finalizing the proposed IG Charter
 
@@ -35,7 +35,7 @@
 5. Wrap-up (20min)
     * Summarize what are the missing requirements to be added to the proposed IG Charter
 
-## Workshop 2: June 25, 12:00-14:15 UTC
+## Session 2: June 25, 12:00-14:15 UTC
 
 ### Times in various timezones:
 * June 25, 05:00 PDT
@@ -48,7 +48,7 @@
 * June 25, 20:00 CST
 * June 25, 21:00 JST/KST
 
-### Session structure:
+### Agenda:
 1. Scene setting (10min)
     * Goals and expectations for the workshop, i.e., finalizing the proposed IG Charter
 
@@ -74,7 +74,7 @@
 6. Wrap-up (20min)
     * Summarize what are the missing requirements to be added to the proposed IG Charter
 
-## Workshop 3: June 26, 01:00-02:30 UTC
+## Session 3: June 26, 01:00-02:30 UTC
 
 ### Times in various timezones:
 * June 25, 18:00 PDT
@@ -86,7 +86,7 @@
 * June 26, 09:00 CST
 * June 26, 10:00 JST/KST
 
-### Session structure:
+### Agenda:
 1. Scene setting (10min)
     * Goals and expectatins for the workshop, i.e., finalizing the proposed IG Charter
 
