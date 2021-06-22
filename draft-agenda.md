@@ -19,7 +19,7 @@
 
 2. Summary of the current status of Smart Cities - Use cases (30min)
     * Heng QIAN: The Uniqueness of Smart City ICT (3min)
-    * Peter Lee: Smarter Suffolk (UK) case study (3min) ???
+    * Peter Lee: Smarter Suffolk (UK) case study (3min)
     * Discussion & developing a list of the most important requirements for the Smart Cities use cases (24min)
 
 3. Needs and possible solutions for Web-based Smart Cities (30min)
@@ -99,7 +99,7 @@
     * Discussion & developing a list of the most important requirements for Web-based Smart Cities (12min)
 
 4. Cross-cutting issues for Smart Cities (30min)
-    * Baoping CHENG: Multimedia communication technology reshapes smart home life (3min) ???
+    * Baoping CHENG: Multimedia communication technology reshapes smart home life (3min)
     * Kaz Ashimura: Data Governance for Smart Cities (3min)
     * Discussion & developing a list of the most important requirements for Cross-cutting issues for Smart Cities (24min)
 
