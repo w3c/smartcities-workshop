@@ -35,7 +35,7 @@
 5. Wrap-up (20min)
     * Summarize what are the missing requirements to be added to the proposed IG Charter
 
-## Session 2: June 25, 12:00-14:15 UTC
+## Session 2: June 25, 12:00-14:00 UTC
 
 ### Times in various timezones:
 * June 25, 05:00 PDT
@@ -66,15 +66,14 @@
     * Jacqueline Lu: Transparency Interfaces for Everyday Places (3min)
     * Discussion & developing a list of the most important requirements for Web-based Smart Cities (24min)
 
-5. Cross-cutting issues for Smart Cities (30min)
+5. Cross-cutting issues for Smart Cities (15min)
     * Deborah Dahl: Intelligent User Interfaces to Smart Cities (3min)
-    * Baoping CHENG: Multimedia communication technology reshapes smart home life (3min) ???
-    * Discussion & developing a list of the most important requirements for Cross-cutting issues for Smart Cities (24min)
+    * Discussion & developing a list of the most important requirements for Cross-cutting issues for Smart Cities (12min)
 
 6. Wrap-up (20min)
     * Summarize what are the missing requirements to be added to the proposed IG Charter
 
-## Session 3: June 26, 01:00-02:30 UTC
+## Session 3: June 26, 01:00-02:45 UTC
 
 ### Times in various timezones:
 * June 25, 18:00 PDT
@@ -99,9 +98,10 @@
     * Dave McComb: Lessons Learned from Enterprise Ontologies to Smart Cities (3min) ???
     * Discussion & developing a list of the most important requirements for Web-based Smart Cities (12min)
 
-4. Cross-cutting issues for Smart Cities (15min)
+4. Cross-cutting issues for Smart Cities (30min)
+    * Baoping CHENG: Multimedia communication technology reshapes smart home life (3min) ???
     * Kaz Ashimura: Data Governance for Smart Cities (3min)
-    * Discussion & developing a list of the most important requirements for Cross-cutting issues for Smart Cities (12min)
+    * Discussion & developing a list of the most important requirements for Cross-cutting issues for Smart Cities (24min)
 
 5. Wrap-up (20min)
     * Summarize what are the missing requirements to be added to the proposed IG Charter
