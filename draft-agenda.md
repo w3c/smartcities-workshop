@@ -95,7 +95,7 @@
     * Discussion & developing a list of the most important requirements for the Smart Cities standards (24min)
 
 3. Needs and possible solutions for Web-based Smart Cities (15min)
-    * Dave McComb: Lessons Learned from Enterprise Ontologies to Smart Cities (3min) ???
+    * Dave McComb: Lessons Learned from Enterprise Ontologies to Smart Cities (3min)
     * Discussion & developing a list of the most important requirements for Web-based Smart Cities (12min)
 
 4. Cross-cutting issues for Smart Cities (30min)
