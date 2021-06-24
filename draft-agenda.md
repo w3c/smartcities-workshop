@@ -35,7 +35,7 @@
 5. Wrap-up (20min)
     * Summarize what are the missing requirements to be added to the proposed IG Charter
 
-## Session 2: June 25, 12:00-14:00 UTC
+## Session 2: June 25, 12:00-14:05 UTC
 
 ### Times in various timezones:
 * June 25, 05:00 PDT
@@ -61,10 +61,11 @@
     * Jerome Blum: ECLASS as a standardized Taxonomy, Terminology and Semantic for Smart Cities (3min)
     * Discussion & developing a list of the most important requirements for the Smart Cities standards (12min)
 
-4. Needs and possible solutions for Web-based Smart Cities (30min)
+4. Needs and possible solutions for Web-based Smart Cities (35min)
     * Andrea Cimmino: Shifting from smart cities to smart communities using Web technologies (3min)
     * Jacqueline Lu: Transparency Interfaces for Everyday Places (3min)
-    * Discussion & developing a list of the most important requirements for Web-based Smart Cities (24min)
+    * Dave McComb: Lessons Learned from Enterprise Ontologies to Smart Cities (3min)
+    * Discussion & developing a list of the most important requirements for Web-based Smart Cities (26min)
 
 5. Cross-cutting issues for Smart Cities (15min)
     * Deborah Dahl: Intelligent User Interfaces to Smart Cities (3min)
@@ -73,7 +74,7 @@
 6. Wrap-up (20min)
     * Summarize what are the missing requirements to be added to the proposed IG Charter
 
-## Session 3: June 26, 01:00-02:45 UTC
+## Session 3: June 26, 01:00-02:25 UTC
 
 ### Times in various timezones:
 * June 25, 18:00 PDT
@@ -89,19 +90,14 @@
 1. Scene setting (10min)
     * Goals and expectatins for the workshop, i.e., finalizing the proposed IG Charter
 
-2. Summary of the current status of Smart Cities - Existing standards (30min)
-    * Usman Sarwar: Case study of building smart city project in Australia (3min) ???
+2. Summary of the current status of Smart Cities - Existing standards (15min)
     * Clarissa Loureiro: Smart City Maturity Model for Developing Countries Scenarios (3min)
-    * Discussion & developing a list of the most important requirements for the Smart Cities standards (24min)
+    * Discussion & developing a list of the most important requirements for the Smart Cities standards (12min)
 
-3. Needs and possible solutions for Web-based Smart Cities (15min)
-    * Dave McComb: Lessons Learned from Enterprise Ontologies to Smart Cities (3min)
-    * Discussion & developing a list of the most important requirements for Web-based Smart Cities (12min)
-
-4. Cross-cutting issues for Smart Cities (30min)
+3. Cross-cutting issues for Smart Cities (30min)
     * Baoping CHENG: Multimedia communication technology reshapes smart home life (3min)
     * Kaz Ashimura: Data Governance for Smart Cities (3min)
     * Discussion & developing a list of the most important requirements for Cross-cutting issues for Smart Cities (24min)
 
-5. Wrap-up (20min)
+4. Wrap-up (30min)
     * Summarize what are the missing requirements to be added to the proposed IG Charter
