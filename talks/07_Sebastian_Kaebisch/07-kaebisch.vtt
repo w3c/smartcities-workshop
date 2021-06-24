@@ -1,0 +1,86 @@
+WEBVTT
+
+Slide 1
+00:00:00.000 --> 00:00:18.700
+Hello welcome to my presentation about Standardized Service Orchestration in Smart City. 
+My name is Sebastian Käbisch and I‘m from Siemens Technology. 
+Pedram and I submitted this talk to the W3C Smart City Workshop 2021. 
+Ok, let‘s start!
+
+
+Slide 2
+00:00:18.900 --> 00:01:38.700
+Smart City scenarios typically consist of an interplay of multiple heterogeneous Things. 
+A special situation in Smart City is that you have Things providers that are owned by 
+private sectors such as car and eScooter sharing service providers or by operators 
+from the public sector such as public transportation or traffic signals. 
+
+In many applications it is desired to orchestrate different data sources and functions 
+from such service offerings to different smart city application scenarios. Here we 
+can mention “Monitoring” and “Controlling” scenarios, for example observing and act in 
+critical situations such as flooding in a city area. 
+AI can be used, for example, to predict traffic jams or overcrowding situations if 
+there is a football match and to propose different traffic routing and the increase of 
+public transportation service on that day. 
+
+Realizing such different smart city applications is quite challenging. 
+This is based on the fact that the different IoT assets come typically with their 
+own interfaces with specific data models, protocols and security conditions. This 
+diversity results in high implementation and maintenance costs over the years.
+
+Slide 3
+00:01:38.900 --> 00:01:49.700
+Questions arise as to how we can challenge this diversity in smart cities scenarios? 
+And how can we simplify service orchestration?
+
+Slide 4
+00:01:49.900 --> 00:03:15.700
+We believe that an answer to this question is relying on open standards. Why you 
+should do so? Lets take as example the W3C as a well known SDO. 
+ 
+As you know the Web is a very successful story. A lot of business is going on there and 
+through the last years this development has further massively increased. One of the reasons 
+why that is so successful is, Web application can be simply realized based on standardized 
+technology building blocks that follow specifics Web API, data formats and semantics. Based on 
+a common understanding service orchestration can be realized easily and reused to simply 
+create new value added services especially for costumers.  
+Now, it would be cool to have something similar for the Internet of Things. 
+ 
+And the great thing is, the W3C has setup a group which takes care of this and has started 
+to standardize building blocks for the IoT. If you are interested in some more details 
+about WoT and the building blocks please checkout the presentation from Michael McCool with 
+the title “The Web of Things in the Smart City” or visit the official WoT webpage www.w3.org/WoT
+
+Slide 5
+00:03:15.900 --> 00:04:30.100
+Here you can see an example, how the Web of Things building block can be applied to 
+the smart city scenarios in an abstract manner. 
+
+The WoT Thing Description can provide a common description for the different IoT 
+asset interfaces. This helps to understand what the asset offers, which data model 
+is used and what the communication & security setup looks like. Having such Thing Descriptions, 
+this helps to simply onboard the different IoT assets and simplifies the 
+interaction with the assets. Another great building block that WoT offers is an 
+application layer that consists in what we called properties, actions events.
+ 
+Typically, all what can be offered by the IoT assets can be reflected by those 3 
+interaction affordances. This abstraction is a great thing since this allows developers only 
+to work with the properties, actions and events paradigm and do not have to take care anymore 
+of the communication details like protocols and security setups. This enables rapid service 
+orchestration and is future-oriented by being more extensible and flexible, It also increases 
+the reusage of existing implementations and libraries. 
+ 
+Slide 6
+00:04:30.500 --> 00:05:09.100
+Siemens already uses Web of Things in different Siemens products. Our commercial 
+implementation is called sayWoT and is a professional solution to realize smart city 
+scenarios as mentioned before. sayWoT helps to have an easy integration of the different IoT 
+assets and enables a rapid service orchestration. A costumer, e.g., uses sayWoT to control and 
+monitor around 3000 Things which serve in total 750-thousend datapoints. If you are interested 
+in getting more information about sayWoT we would be happy to receive a message from you. 
+
+Slide 7
+00:05:09.900 --> 00:05:21.100
+Thank you very much for your attention. 
+Please find here our details if you like to contact us.
+Thank you and see you

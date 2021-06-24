@@ -1,0 +1,298 @@
+WEBVTT
+
+00:00.000 --> 00:11.350
+Hello, I'm Michael cool. I am a principal engineer with Intel and also co-Chair of the W3C Web of Things Working Group.
+
+00:11.350 --> 00:18.560
+As we're working on standards to bring Web technology to the Internet of Things.
+
+00:18.560 --> 00:25.990
+And feel the Internet of Things is a very important technology for the smart city.
+
+00:25.990 --> 00:31.940
+And it also that Web technologies are important technology for the smart city.
+
+00:31.940 --> 00:41.800
+So we've been working for several years on some standards that we feel fill us in some critical gaps in the ecosystem for IoT.
+
+00:41.800 --> 00:46.000
+And I want to talk about how these relate to the smart city.
+
+00:46.000 --> 00:51.880
+So I prepared a presentation, and I'm going to now switch to that and walk through some slides.
+
+00:51.880 --> 00:59.560
+So now I want to talk about the Web of Things in the Smart City.
+
+00:59.560 --> 01:10.020
+As I mentioned, the Web of Things is a W3C Working Group that is working on adapting Web technologies to the IoT.
+
+01:10.020 --> 01:19.640
+Now, there are many many standards in IoT, and in fact there're so many that it's very confusing and a lot of competing standards.
+
+01:19.640 --> 01:28.500
+So we didn't want to add confusion by doing yet another, you know, independent vertical stack competing with all the rest.
+
+01:28.500 --> 01:33.300
+Instead we wanted to target a gap in the ecosystem.
+
+01:33.300 --> 01:42.560
+And that gap we felt was a common format for describing what an IoT service provides, how to use it.
+
+01:42.560 --> 01:53.020
+And the standard that we've already published is basically a machine readable documentation or metadata
+
+01:53.020 --> 01:57.880
+that describes how to use an IoT service, independent of protocol.
+
+01:57.880 --> 02:11.300
+And this is called the Thing Description, and it provides a high level abstract interface for talking to IoT devices terms of Properties, Actions and Events.
+
+02:11.300 --> 02:18.850
+Properties are state, actions are verbs at things you can do, and events are things can happen.
+
+02:18.850 --> 02:20.130
+You get notified about.
+
+02:20.130 --> 02:24.090
+It's very simple, high level set of interactions.
+
+02:24.090 --> 02:32.170
+And the Thing Description lets you map those to underlying protocols, but synch in terms of these high level operations.
+
+02:32.170 --> 02:37.420
+Now, we have since working on new things.
+
+02:37.420 --> 02:41.220
+So the Thing Description describes how device works.
+
+02:41.220 --> 02:43.600
+We're now working on Discovery
+
+02:43.600 --> 02:49.810
+which is a secure mechanism to find Thing Descriptions
+
+02:49.810 --> 02:55.000
+and typically doing that in an ad-hoc fashion so maybe you can get a mobile device
+
+02:55.000 --> 03:00.820
+and you're in a mall and you want to find out IoT services for the sake of accessibility.
+
+03:00.820 --> 03:07.260
+So you do discovery to do that, to find services in your location.
+
+03:07.260 --> 03:15.200
+The other issue I'd look at was to limit the scope of TDs for particular contexts.
+
+03:15.200 --> 03:23.750
+So maybe in a smart home, we want to limit the set of implementation requirements.
+
+03:23.750 --> 03:27.930
+So that a hub can do it, can do just what it needs to do.
+
+03:27.930 --> 03:31.000
+So we're also working on, on that.
+
+03:31.000 --> 03:40.980
+So we're in our second round right now, our charter, and we are close to finishing up discovery and some updates to the Thing Description model.
+
+03:40.980 --> 03:47.210
+Now I'm going to show you now a brief example of a Thing Description to make this concrete.
+
+03:47.210 --> 03:55.450
+So it is actually a very simply file that contains information.
+
+03:55.450 --> 03:58.010
+Two kinds of information.
+
+03:58.010 --> 04:01.230
+It describes what you can do.
+
+04:01.230 --> 04:07.050
+What are the Properties, Events and Actions you can interact with the device.
+
+04:07.050 --> 04:11.090
+And then the details how you use each of the interactions.
+
+04:11.090 --> 04:15.290
+So how you can use the particular protocol
+
+04:15.290 --> 04:20.200
+tools, for example, read or write the Property or invoke an Action.
+
+04:20.200 --> 04:29.050
+how to format the data or interpret the data that comes from the divice
+
+04:29.050 --> 04:32.250
+and finally what the security requirements are
+
+04:32.250 --> 04:39.380
+TD is not about distributing the security information. It's about saying what the requirements are.
+
+04:39.380 --> 04:45.850
+So that you know what need to do assuming you have the rights.
+
+04:45.850 --> 04:55.460
+And I also wanted to say Thing Description is actually an instance of linked data.
+
+04:55.460 --> 04:58.010
+which connects to the Semantic Web.
+
+04:58.010 --> 05:04.200
+So all the tools of the Semantic Web are available to describe the semantics.
+
+05:04.200 --> 05:11.070
+And actually various other activities going on to, for example, have classes of devices.
+
+05:11.070 --> 05:23.880
+to identify units, to identify geolocation, that can be used in Semantic Web to make very clear definitions of what the semantics of the device is.
+
+05:23.880 --> 05:30.760
+So, the usage patterns of Thing Descriptions are quite varied.
+
+05:30.760 --> 05:36.890
+One example is you can use it to simplify ingestion of data into a database.
+
+05:36.890 --> 05:41.210
+So may have a database in the cloud, you may have many devices from different vendors.
+
+05:41.210 --> 05:45.600
+How do you get all that data from all those devices into a common database.
+
+05:45.600 --> 05:57.130
+Well, you can use Things Description to describe each source of data, and its data schema, and then use that to parse and interpret the data and convert it into your database.
+
+05:57.130 --> 06:02.800
+Perhaps you want to put a user interface on a mobile device.
+
+06:02.800 --> 06:10.330
+So again, the descriptions of the data can be used to create appropriate visualizations of that data.
+
+06:10.330 --> 06:20.060
+And you could also use the event descriptions to know what kind of notifications at a mobile device could subscribe to from the IoT services.
+
+06:20.060 --> 06:32.330
+perhaps want to provide a service, mobile service, perhaps for accessibility. Maybe someone can call an elevator, or can open a door.
+
+06:32.330 --> 06:39.360
+And so you could do this with direct Thing to Thing interaction using a direct discovery.
+
+06:39.360 --> 06:46.920
+The other thing I wanted to say is that devices don't even have to know about Web of Things to participate.
+
+06:46.920 --> 06:53.800
+You could write a Thing Description for an existing device that's already installed, brownfield devices.
+
+06:53.800 --> 06:58.200
+Without modifying the device, you can describe how to talk to it.
+
+06:58.200 --> 07:03.410
+And as long as something else can get the Thing Description for that device, it can then talk to it.
+
+07:03.410 --> 07:06.630
+So this lets you compliment existing devices.
+
+07:06.630 --> 07:16.510
+You can do more if you start from scratch and design device for Web of Things, but you can also use Web of Things for existing devices.
+
+07:16.510 --> 07:22.700
+Now, I want to talk very briefly about some use cases.
+
+07:22.700 --> 07:36.480
+We have a quite large use case document that has been collecting submissions from many stakeholders to try to explain and clarify the requirements of different use cases.
+
+07:36.480 --> 07:56.160
+One of the things we want to get out of this workshop and about the possible IG is a sense of the priorities, which from those use cases, and also the detailed requirements for each of them, but I'll just give a few examples, drawn from those use cases.
+
+07:56.160 --> 08:06.660
+Suppose here is a distributed energy management system. And you maybe have, you know, solar panels and batteries and grid and so forth.
+
+08:06.660 --> 08:15.220
+And you would like to, because maybe the batteries are low and the sun isn't shining very bravely. You want to reduce the demand.
+
+08:15.220 --> 08:23.000
+So you would like to send IoT devices, a request, they reduce their energy consumption for time.
+
+08:23.000 --> 08:36.670
+So, but maybe of 1000 different kinds of devices. How do you unify? Unified commands for all these different devices. How to reduce their energy consumption? How do you monitor the energy consumption?
+
+08:36.670 --> 08:53.920
+So if you have the Things Description that describes all these different devices and how they gave data, or had actions relative to this, and you tagged it with appropriate semantics, then you could automatically generate these commands to a unified way.
+
+08:53.920 --> 09:04.730
+Suppose you want to do air quality management, and you have many kinds of sensors and pollution monitors and airflow systems in your city.
+
+09:04.730 --> 09:13.550
+You could again right things for sons that can unify the semantics for all those as you pull that information into a database for analysis.
+
+09:13.550 --> 09:30.860
+Similar considerations apply the traffic and logistics and also things like land and water management, where you might have different kinds of sensors for occupancy of traffic spots for flow of water, and so forth.
+
+09:30.860 --> 09:37.130
+One that was submitted recently was cultural space management.
+
+09:37.130 --> 09:41.480
+You might have various requirements in, say, a museum
+
+09:41.480 --> 09:53.220
+to make sure that humidity and occupancy and security are under control and protected to be displayed, and to have people be comfortable.
+
+09:53.220 --> 10:04.420
+Public transportation, you might have various kinds of services available to people, to let them know when buses are coming, or to call a bus or so forth.
+
+10:04.420 --> 10:08.330
+And it's also relates to accessibility.
+
+10:08.330 --> 10:13.350
+If you have people who are mobility impaired or visually impaired or hearing impaired.
+
+10:13.350 --> 10:18.200
+They can request different kinds of services to make things accessible to them.
+
+10:18.200 --> 10:28.660
+So for example, able to call an elevator, open the door or get guidance if they're visually impaired in place of signage and so forth.
+
+10:28.660 --> 10:32.940
+So anyways, there's many, many use cases that we can imagine.
+
+10:32.940 --> 10:36.380
+The question is, what are the priorities for the cities,
+
+10:36.380 --> 10:41.820
+what are the places that really lack solutions in the market and have gaps
+
+10:41.820 --> 10:51.770
+where a standard would help unify and make it easier and more efficient for the vendors and the cities to work together on creating the solutions.
+
+10:52.750 --> 11:02.080
+So if you want to follow up with us, I am a co-Chair, so my parter is Sebastian Kaebisch, who is from Siemens.
+
+11:02.080 --> 11:06.600
+And we're both working on this for many years.
+
+11:06.600 --> 11:09.220
+I'm also pointing here at the Web site.
+
+11:09.170 --> 11:12.570
+Ah, at top much more information.
+
+11:12.570 --> 11:18.550
+If you'd like more information, the slide deck includes links to various documents.
+
+11:18.550 --> 11:22.280
+And these links in particular all pointing at the editors drafts,
+
+11:22.280 --> 11:26.480
+but I'd like to direct you to particular the use case document,
+
+11:26.480 --> 11:29.730
+which discusses many of use cases that we've already talked about
+
+11:29.950 --> 11:40.950
+And also for anything else, you can go to the main Web site, www.w3.org/WoT,
+
+11:40.950 --> 11:44.060
+where we have also links to all the above information.
+
+11:44.060 --> 12:40.730
+Thanks very much!

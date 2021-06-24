@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.000 --> 00:11.000
+Hello, my name is Sandra Cimino from the university that Polytechnique in Madrid. I'm a postdoc in this university on my research focuses on semantic interoperability.
+
+00:11.000 --> 00:23.000
+And now you're to discovery in well known standards like the world of things, or one and two and today I will be presenting shifting from smart cities, smart communities using web technologies.
+
+00:23.000 --> 00:34.000
+But before going into the heart of the matter, let's see what smart communities are smart communities are born from smart cities, even though they are quite different.
+
+00:34.000 --> 00:50.000
+smarter communities, aim at unifying under the same roof existing smart cities with new areas, which has, which are not necessarily smart yet. In order to enrich the existing benefits that smart cities have and bring these benefits into the upcoming areas.
+
+00:50.000 --> 01:03.000
+Therefore, smart communities provide a unified view for all these sparse areas revolving around people and their economic activities like industry, energy, transportation, and rural areas.
+
+01:03.000 --> 01:16.000
+Due to the large number of areas. The data flowing through the smarter communities may belong to a very large number of domains. For instance, food and agriculture governance, or transport.
+
+01:16.000 --> 01:24.000
+Similarly, the stakeholders involved in small communities producing or consuming such data or numerals and diverse.
+
+01:24.000 --> 01:38.000
+For example entities people or Smart Objects data in small communities can be produced, or consumed basically anywhere by anyone at any time, with any technology and using any language.
+
+01:38.000 --> 01:52.000
+These lead to a highly distributed scenario of data ecosystem, which are developed using a true genius solutions. This means the stakeholders exchange data you send it to the genius protocols data syntax our models.
+
+01:52.000 --> 02:08.000
+As a result, the stakeholders will not always be capable of exchanging data, and will have different understanding of such data that therefore, smart communities need to be developed keeping an eye in the fact that they are stakeholders need to be able
+
+02:08.000 --> 02:11.000
+to transparently exchange and understand the data.
+
+02:11.000 --> 02:17.000
+And this is precisely the definition of interoperability given by the I triple E.
+
+02:17.000 --> 02:32.000
+Thank you interoperability in small communities enables the collaboration between the networks of cross domain devices and services. In order to tackle interoperability smart communities need to need that the distributed ecosystem of data, follow the
+
+02:32.000 --> 02:42.000
+same approach for interoperability. This approach requires a set of technological choices to implement different tasks. First, our data syntax must be fixed.
+
+02:42.000 --> 02:45.000
+So all data flow follows.
+
+02:45.000 --> 02:51.000
+Sorry, the same data syntax additional to type of data must be defined what is context and what is content.
+
+02:51.000 --> 03:00.000
+Then, in order to enable the transparent understanding of data being exchange one or more ontology must be choosing to model such date.
+
+03:00.000 --> 03:11.000
+Intelligence are the common vocabulary that allow expressing assured meaning and ensure its consistency. In other words, they enable the common understanding of the data.
+
+03:11.000 --> 03:20.000
+Once the data, the ontology are fixed and ecosystem needs to discover other suitable ecosystems. In order to start exchanging data.
+
+03:20.000 --> 03:29.000
+Additionally, since not all the ecosystem, will be developed, following the same interoperability approach the ecosystems.
+
+03:29.000 --> 03:45.000
+I must have a flexible mechanism to normalize data, according to the interoperability established by one small community. In this way, and ecosystem relying on a non compliant data come first normalized data and then start the exchange.
+
+03:45.000 --> 03:52.000
+Finally, all the data been exchange also needs to be validated both syntactically and semantics.
+
+03:52.000 --> 04:04.000
+And to finish up sorry on to finish all the exchange data master pure on the set of policies for security and privacy.
+
+04:04.000 --> 04:12.000
+That must ensure that the ownership of the data belongs to the, the one who produce such data, all the time.
+
+04:12.000 --> 04:28.000
+In order to allow the distributed data ecosystems from a smart community to exchange and understand data the Interoperability solution must rely on technological choices that that are open standards, all its technological choices must be implemented using
+
+04:28.000 --> 04:32.000
+web technologies that have been standardized by the WTC.
+
+04:32.000 --> 04:45.000
+So for instance data must be expressed, according to the resource the script and framework standard, also known as RDF and additionally any RDS must follow on ontology implemented using the standard language, our.
+
+04:45.000 --> 05:01.000
+However, it is not enough. With only using ontology is implemented in our small communities must rely on existing standardize on technologies. For instance, the solid from technology that counts with several sub modules specialized for modeling, a wide
+
+05:01.000 --> 05:14.000
+range of domains discovery in a distributed set of data ecosystem must follow the web of things approach that has been particularly and Joe it with the information standards for scenarios like the smart communities.
+
+05:14.000 --> 05:23.000
+There is no standard yet for the data normalization, however logical research exists already on how to translate it to the genius data into RDF.
+
+05:23.000 --> 05:31.000
+And finally for the validation the WTC has provided a standard known as the shackle shapes.
+
+05:31.000 --> 05:48.000
+Finally regarding the security and privacy the WTC has the ODRN information model that allows to define complex fuzzy access policies, taking all the previous technological choices the interoperability is achieved uniquely with semantic web technologies
+
+05:48.000 --> 05:52.000
+from the WEC that are open standards.
+
+05:52.000 --> 06:07.000
+Following this approach a highly distributed architecture can be built as depicted in this slide, the architecture relies on a set of interoperability nodes that aim at exchanging the data and perform other services that they have explained these nodes
+
+06:07.000 --> 06:17.000
+are used by the different data ecosystems to exchange data using RDF Express according to one ontology, then the notes also validate the data been exchange.
+
+06:17.000 --> 06:32.000
+And in case of need, they are able to normalize these data being exchange, in case of the ecosystem does not realize on the RDF on the ontology established by the smart Community Edition additionally all the notes are capable of discovering new ones thanks
+
+06:32.000 --> 06:34.000
+to the web of things discovery.
+
+06:34.000 --> 06:54.000
+And finally, these notes rely on the ODRL policies to allow the access for the data, defining policy policies like Randy taxes on the during night or allowed to discover these know only the clients who are issuing the discovery request are somehow nearby.
+
+06:54.000 --> 07:08.000
+Well, just to mention that this architecture is not new, so it's the result of previous versions that have been involved. They have been cooked up during several European projects like missing at Delta Kochi to be married.
+
+07:08.000 --> 07:20.000
+Delta khaki to be married. Now this architecture exactly this one is has been crystallized and implemented in the indo European European project, Aurora.
+
+07:20.000 --> 07:25.000
+That is a project that revolves around smart communities on rural areas.
+
+07:25.000 --> 07:55.000
+So summing up, smart communities need to implement semantic interoperability, in order to exploit their maximum value. And for this goal that semantic interoperability must be by design using open standards and keeping an eye on legacy systems, the dusk,
+
+07:55.000 --> 08:12.000
+are some that have been standardize, particularly, sorry if it's a very good choice for the IoT discovery the web of things standard for the data normalization, we mentioned that there is no standard but there are large number of methods to perform this
+
+08:12.000 --> 08:23.000
+task and further validation the recommendation shackles shapes from the W Tracy. And finally for security and privacy do direct standard.
+
+08:23.000 --> 08:35.000
+So this was it. Many thanks for hearing, and if you have any doubt that it takes to contact me by email or during the event. Thank you.

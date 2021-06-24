@@ -1,0 +1,158 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:16.000
+Hi there, My name is Jacqueline Lou, and I'm from an organization called helpful places. And I'm excited to be sharing DT PR which stands for digital trust for places and routines.
+
+00:00:16.000 --> 00:00:35.000
+It's an open source project that I started, while I was at sidewalk labs, which is an alphabet company in part to try to imagine how there can be better interfaces for digital systems in places for people.
+
+00:00:35.000 --> 00:00:51.000
+And my interest in this topic actually preceded my time at sidewalk it I had as I had a read already been dealing with concerns around consent notification and the use of IoT and public spaces.
+
+00:00:51.000 --> 00:01:12.000
+When I was the director of data analytics at the new york city parks department. When we wanted to pilot, some people counting benches, that used Wi Fi to measure kind of how people move through the park and the pathways that they took through the public
+
+00:01:12.000 --> 00:01:13.000
+space.
+
+00:01:13.000 --> 00:01:23.000
+And now the fundamental problem that I've been thinking about and my collaborators have been thinking about is that digital is invisible in the built environment.
+
+00:01:23.000 --> 00:01:29.000
+But there's very little transparency about what is being collected by whom. And for what purposes.
+
+00:01:29.000 --> 00:01:48.000
+And so while in multiple jurisdictions, there are regulations that extend privacy protections to the offline world, these mechanisms for notification and accountability RX any signage that does appear are long paragraphs of text, or small snippets that
+
+00:01:48.000 --> 00:01:53.000
+give very little venue to follow up and ask more questions.
+
+00:01:53.000 --> 00:02:01.000
+Our belief is that people should be able to quickly understand how these technologies work, and the purposes that they serve.
+
+00:02:01.000 --> 00:02:05.000
+What we have now is a bunch of ad hoc approaches.
+
+00:02:05.000 --> 00:02:17.000
+Alternatively we can have systematic implementation, so that people and organizations with aligned values can learn from one another in a meaningful way.
+
+00:02:17.000 --> 00:02:21.000
+And this effort is about finding that better way.
+
+00:02:21.000 --> 00:02:41.000
+And this is important because this fragmented approach to notification contributes to a reduction of interest in IoT and through different route and smart cities, through different rounds of prototyping and research and kind of looking towards the future
+
+00:02:41.000 --> 00:02:48.000
+through this project we've begun to develop an understanding of how trust could be fostered in digital systems.
+
+00:02:48.000 --> 00:03:04.000
+We started in 2019 with looking at transparency with how with a standard set of concepts and icons that clearly communicate and describe digital systems to start to explore accountability.
+
+00:03:04.000 --> 00:03:29.000
+By showing that by demonstrating a systems benefits and actual outcomes that we can actually start to help people feel a sense of agency and foster trust, and so then that understanding is embedded in DC PR, which is kind of like a product, but the stills
+
+00:03:29.000 --> 00:03:32.000
+our understanding of some of these concepts.
+
+00:03:32.000 --> 00:03:46.000
+At its core, GDPR is a standard Dictionary of concepts for digital technology and data practices, and an associated set of icons that express those concepts in a visual way.
+
+00:03:46.000 --> 00:04:05.000
+So very similar to the way we use traffic symbols or, you know, Chemical Safety symbols. Currently in other contexts. This taxonomy of concepts is intended to build up the people legible description of sensors systems and places that can then be made
+
+00:04:05.000 --> 00:04:21.000
+available to people in a variety of ways through an API. What we have in the present day is a chat bot is a signage, we've prototype, a chat bot and we have a vision of kind of in the future how a standard like this could power new types of technologies
+
+00:04:21.000 --> 00:04:25.000
+like personal fiduciary eyes
+
+00:04:25.000 --> 00:04:41.000
+do CPR as a first draft of a system to people communication standard was drafted by experts but refined through iterations of prototyping and user testing, it was important to us to take a design thinking approach to develop this so that we weren't just
+
+00:04:41.000 --> 00:04:53.000
+talking to ourselves, but that we were putting these ideas out in front of real people to get their feedback and he kept bringing that back to the contributors and an iterative cycle.
+
+00:04:53.000 --> 00:05:11.000
+And so this is what it looks like how the taxonomy is applied. It's a unified visual language that we think is an important starting point to help make smart city technologies legible to people and coupled with digital tools that help people follow up,
+
+00:05:11.000 --> 00:05:15.000
+learn more and provide feedback.
+
+00:05:15.000 --> 00:05:23.000
+Which icons to put on signs that are actually in the present in the built environments.
+
+00:05:23.000 --> 00:05:25.000
+Were validated by user research.
+
+00:05:25.000 --> 00:05:38.000
+These were the kind of things that through the user research floated to the top that people felt what they would want themselves to know in the moment, as they were going about a future smart city.
+
+00:05:38.000 --> 00:05:58.000
+And we were excited to pilot the system with the city of Boston. In the summer of 2020. And you can imagine that you are coming up to this intersection and you see the sign and you can take out your phone's camera and scan this QR code.
+
+00:05:58.000 --> 00:06:07.000
+And you are brought to a digital channel where you are able to get much more information about the technology.
+
+00:06:07.000 --> 00:06:24.000
+The information about the data activity and the data processing, how the technology type that is present, as well as access and storage is presented to the end user in a consistent manner, no matter what the use case and what the technology and through
+
+00:06:24.000 --> 00:06:38.000
+this consistent mental model, and importantly we also provide a mechanism for feedback of how you feel about this technology because we see that as kind of critical to building trust in the smart city.
+
+00:06:38.000 --> 00:06:47.000
+So that is where we are now, but we are here to think about the future.
+
+00:06:47.000 --> 00:07:04.000
+And so, out of the CO design sessions. Last year, came and asked from one of the contributors to envision how this system to people communication standard might work in five years, and our research, exploring the mechanisms of accountability and agency
+
+00:07:04.000 --> 00:07:09.000
+lead to increasing excitement for the prospect of a personal AI assistant.
+
+00:07:09.000 --> 00:07:27.000
+This would be provided by an organization that you trust, and your assistant knows your preferences and is ready to help our thinking is that as a communication standard that describes sensors systems and places and be a machine readable way DTP arc is
+
+00:07:27.000 --> 00:07:37.000
+a pathway to create a foundation from which personal a eyes could provide deeper control over our digital interactions in the real world.
+
+00:07:37.000 --> 00:07:52.000
+And so you can imagine what it might be like to have your digital assistant with you everywhere you go. And as you enter into a place that uses GDPR you're using, you're given a link and you can ask questions about those technologies.
+
+00:07:52.000 --> 00:08:06.000
+You can see what services are available for you to interact with in that place, and see if you want to do anything differently, given the context or the particular scenario and experience you're having that day.
+
+00:08:06.000 --> 00:08:22.000
+How the digital technologies in the space works are fully described and available to the end user because everything in this place has been described using this communication, the system to people communication standard and made available using this visual
+
+00:08:22.000 --> 00:08:25.000
+language.
+
+00:08:25.000 --> 00:08:42.000
+You can imagine that we go to a library that offers a grab and go check out system, this is few years in the future. After all, but because DTP er is implemented there, your personal AI understands the grab and go system, and can apply your personal settings
+
+00:08:42.000 --> 00:08:45.000
+and your preferences.
+
+00:08:45.000 --> 00:08:56.000
+And like any system in the place, it's because of the implementation of this communication standard it is completely inspect double and legible to people.
+
+00:08:56.000 --> 00:09:08.000
+And because it is also the future your AI helps reduce your cognitive load by essentially reading the information for you and letting you know if something is different, or if you need to take action.
+
+00:09:08.000 --> 00:09:19.000
+And in the future that we imagine at the end of the day, you could also check in with your personal AI, review your transactions and interactions and change anything that is necessary.
+
+00:09:19.000 --> 00:09:31.000
+And so this is our vision of the future where would the existence of this system to people communication standard there could be new types of interfaces for the places we live, work and play.
+
+00:09:31.000 --> 00:09:51.000
+And so we are building the foundations for this kind of future right now we're in discussions with multiple locations that are interested in trying the system to pilot, how they can improve how they deploy IoT in the public realm.
+
+00:09:51.000 --> 00:09:59.000
+And our goal is that together we can accelerate to a future where human agency and the connected world is the default.
+
+00:09:59.000 --> 00:10:06.000
+And here is where you can go to get more information about this project.
+
+00:10:06.000 --> 00:10:12.000
+Thank you very much.
+
