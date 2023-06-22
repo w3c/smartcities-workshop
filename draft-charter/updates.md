@@ -80,7 +80,8 @@ WoT standards are now being used for various industry areas including:
 #### Smart home (collaboratively with ECHONET)
 Improve the usability of home appliances for device users by allowing device users to configure the operation modes of all devices at home without configuring those devices one by one when they leave and come home.
 
-[fig]
+![Smart Home](https://www.w3.org/TR/wot-usecases/images/wot-use-case-echonet.png)
+
 (https://www.w3.org/TR/wot-usecases/images/wot-use-case-echonet.png)
 
 #### Smart building (collaboratively with IPA DADC)
@@ -91,6 +92,8 @@ Integrate various sensor networks and various devices by WoT within a smart buil
 
 #### Smart factory (collaboratively with OPC via Siemens)
 A bottling line consists of a filling module, a capping module, a labeling module, and a transport system. The production line is provided via an OPC UA endpoint for control and monitoring purposes.
+
+![Smart Factory](https://www.w3.org/TR/wot-usecases/images/industry-4.0.png)
 
 (https://www.w3.org/TR/wot-usecases/images/industry-4.0.png)
 
