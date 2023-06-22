@@ -73,14 +73,14 @@ IoT developers face the big problem of “IoT Silos” when creating an applicat
 
 The W3C Web of Things (WoT) Working Group has been working on standards to counter the fragmentation of the IoT and enable easy integration of IoT devices and services across IoT platforms and application domains by providing a common description across different ecosystems (=WoT Thing Description), standards.
 
-![Interconnection using WoT](./20181203-plugfest-e.png)
+<img alt="Interconnection using WoT" src="./20181203-plugfest-e.png" width="60%" />
 
 WoT standards are now being used for various industry areas including:
 
 #### Smart home (collaboratively with ECHONET)
 Improve the usability of home appliances for device users by allowing device users to configure the operation modes of all devices at home without configuring those devices one by one when they leave and come home.
 
-![Smart Home](https://www.w3.org/TR/wot-usecases/images/wot-use-case-echonet.png)
+<img alt="Smart Home" src="https://www.w3.org/TR/wot-usecases/images/wot-use-case-echonet.png" width="60%" />
 
 (https://www.w3.org/TR/wot-usecases/images/wot-use-case-echonet.png)
 
