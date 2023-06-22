@@ -69,11 +69,11 @@ Note that there are many topics to discuss around Smart Cities and the scope of 
 ### W3C Web of Things
 IoT developers face the big problem of “IoT Silos” when creating an application including multiple services from different IoT platforms.
 
-[fig1]
+![IoT Silos](./20181203-iot-silos-e.png)
 
 The W3C Web of Things (WoT) Working Group has been working on standards to counter the fragmentation of the IoT and enable easy integration of IoT devices and services across IoT platforms and application domains by providing a common description across different ecosystems (=WoT Thing Description), standards.
 
-[fig2]
+![Interconnection using WoT](./20181203-plugfest-e.png)
 
 WoT standards are now being used for various industry areas including:
 
@@ -87,7 +87,8 @@ Improve the usability of home appliances for device users by allowing device use
 #### Smart building (collaboratively with IPA DADC)
 Integrate various sensor networks and various devices by WoT within a smart building which use different data models and protocols.
 
-[fig]
+![Smart Building](./smartbuilding.png)
+
 (https://www.w3.org/2022/Talks/0914-smartcities-ka/20220914-dt-sc-ka.pdf slide 18)
 
 #### Smart factory (collaboratively with OPC via Siemens)
@@ -143,6 +144,8 @@ A possible candidate framework for that purpose, which was agreed by the partici
 * Decentralized Identifiers (DID): define IDs to to identify devices and users
 * Web of Things (WoT): define device capability
 * Verifiable Credentials (VC): standardized description for user credentials
+
+![Possible Web-based Digital Twins Platform](./wot20.png)
 
 To continue the further discussion on the common Web-based platform and standardized vocabulary, we'd like to launch a dedicated group:
 * to identify and document use cases and requirements that W3C specifications need to meet to support Smart City services,
