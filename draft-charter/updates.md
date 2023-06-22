@@ -94,7 +94,7 @@ Integrate various sensor networks and various devices by WoT within a smart buil
 #### Smart factory (collaboratively with OPC via Siemens)
 A bottling line consists of a filling module, a capping module, a labeling module, and a transport system. The production line is provided via an OPC UA endpoint for control and monitoring purposes.
 
-![Smart Factory](https://www.w3.org/TR/wot-usecases/images/industry-4.0.png)
+<img alt="Smart Factory" src="https://www.w3.org/TR/wot-usecases/images/industry-4.0.png" width="60%" />
 
 (https://www.w3.org/TR/wot-usecases/images/industry-4.0.png)
 
@@ -145,7 +145,7 @@ A possible candidate framework for that purpose, which was agreed by the partici
 * Web of Things (WoT): define device capability
 * Verifiable Credentials (VC): standardized description for user credentials
 
-<img alt="Possible Web-based Digital Twins Platform" src="./wot20.png" width="80%"/>
+<img alt="Possible Web-based Digital Twins Platform" src="./wot20.png" width="60%"/>
 
 To continue the further discussion on the common Web-based platform and standardized vocabulary, we'd like to launch a dedicated group:
 * to identify and document use cases and requirements that W3C specifications need to meet to support Smart City services,
