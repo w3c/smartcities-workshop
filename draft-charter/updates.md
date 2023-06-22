@@ -69,7 +69,7 @@ Note that there are many topics to discuss around Smart Cities and the scope of 
 ### W3C Web of Things
 IoT developers face the big problem of “IoT Silos” when creating an application including multiple services from different IoT platforms.
 
-![IoT Silos](./20181203-iot-silos-e.png)
+<img alt="IoT Silos" src="./20181203-iot-silos-e.png" width="60%" />
 
 The W3C Web of Things (WoT) Working Group has been working on standards to counter the fragmentation of the IoT and enable easy integration of IoT devices and services across IoT platforms and application domains by providing a common description across different ecosystems (=WoT Thing Description), standards.
 
