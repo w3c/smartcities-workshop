@@ -147,4 +147,5 @@ To continue the further discussion on the common Web-based platform and standard
 * to gather expert input on important features for Smart Cities based on the Web technology, and to provide a forum for technical and business discussions related to Smart Cities.
 
 [1] https://w3c.github.io/wot-usecases/#smart-city
+
 [2] https://www.w3.org/WoT/ws-2019/minutes.html#day2-item02
