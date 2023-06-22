@@ -145,7 +145,7 @@ A possible candidate framework for that purpose, which was agreed by the partici
 * Web of Things (WoT): define device capability
 * Verifiable Credentials (VC): standardized description for user credentials
 
-![Possible Web-based Digital Twins Platform](./wot20.png)
+<img alt="Possible Web-based Digital Twins Platform" src="./wot20.png" width="80%"/>
 
 To continue the further discussion on the common Web-based platform and standardized vocabulary, we'd like to launch a dedicated group:
 * to identify and document use cases and requirements that W3C specifications need to meet to support Smart City services,
