@@ -73,14 +73,14 @@ IoT developers face the big problem of “IoT Silos” when creating an applicat
 
 The W3C Web of Things (WoT) Working Group has been working on standards to counter the fragmentation of the IoT and enable easy integration of IoT devices and services across IoT platforms and application domains by providing a common description across different ecosystems (=WoT Thing Description), standards.
 
-<img alt="Interconnection using WoT" src="./20181203-plugfest-e.png" width="60%" />
+<img alt="Interconnection using WoT" src="./20181203-plugfest-e.png" width="80%" />
 
 WoT standards are now being used for various industry areas including:
 
 #### Smart home (collaboratively with ECHONET)
 Improve the usability of home appliances for device users by allowing device users to configure the operation modes of all devices at home without configuring those devices one by one when they leave and come home.
 
-<img alt="Smart Home" src="https://www.w3.org/TR/wot-usecases/images/wot-use-case-echonet.png" width="60%" />
+<img alt="Smart Home" src="https://www.w3.org/TR/wot-usecases/images/wot-use-case-echonet.png" width="80%" />
 
 (https://www.w3.org/TR/wot-usecases/images/wot-use-case-echonet.png)
 
@@ -94,7 +94,7 @@ Integrate various sensor networks and various devices by WoT within a smart buil
 #### Smart factory (collaboratively with OPC via Siemens)
 A bottling line consists of a filling module, a capping module, a labeling module, and a transport system. The production line is provided via an OPC UA endpoint for control and monitoring purposes.
 
-<img alt="Smart Factory" src="https://www.w3.org/TR/wot-usecases/images/industry-4.0.png" width="60%" />
+<img alt="Smart Factory" src="https://www.w3.org/TR/wot-usecases/images/industry-4.0.png" width="80%" />
 
 (https://www.w3.org/TR/wot-usecases/images/industry-4.0.png)
 
