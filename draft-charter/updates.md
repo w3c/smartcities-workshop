@@ -137,7 +137,7 @@ Please note there are various definitions for "Digital Twins" like the following
 * WoT Architecture: 
   * A digital twin is a virtual representation of a device or a group of devices that resides on a cloud or edge node. It can be used to represent real-world devices which may not be continuously online, or to run simulations of new applications and services, before they get deployed to the real devices.
 
-# Proposed Web-based Digital Twins for Smart Cities (Interest|Community) Group
+# Proposed Web-based Digital Twins for Smart Cities Interest Group
 We still need to work on discussion at W3C about (1) possible Web-based future framework for Digital Twins for Smart Cities and (2) standardized vocabulary for Smart Cities with the related SDOs collaboratively.
 
 A possible candidate framework for that purpose, which was agreed by the participants in the WoT WG and the TPAC breakout, is based on the following W3C standards:
