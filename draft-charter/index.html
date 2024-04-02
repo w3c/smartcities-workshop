@@ -57,10 +57,18 @@
          clear: both;
      }
      img.diagram {
-         margin-top: 0.5em;
+         margin-top: 2em;
          display: block;
          margin-left: auto;
          margin-right: auto;
+     }
+     figcaption {
+         margin-top: 1em;
+         margin-bottom: 2em;
+         width: fit-content;
+         margin-left: auto;
+         margin-right: auto;
+         font-weight: bold;
      }
      div.summary {
          clear: both;
@@ -215,9 +223,8 @@
             <li>We also confirmed that it would be very important to consider inclusive design including accessibility, privacy, security, and internationalization. Smart City applications are tightly related to the people who live in cities. We want Smart City technology to have a positive impact on their lives and want to avoid unintended negative consequences.</li>
         </ul>
 
-        <h3>Follow-up discussion during the TPAC 2022 breakout</h3>
-        <p>During TPAC 2022 in Vancouver, a <a href="https://www.w3.org/2022/09/14-smartcities-minutes.html">breakout session on Web-based Digital Twins for Smart Cities</a> was organized, and representatives from the following standardization organizations had collaborative discussion about the current situation and problems of their standardization work on Smart Cities.</p>
-
+        <h3>Follow-up discussion during the TPAC 2022 breakout, etc.</h3>
+        <p>Follow-up discussion on Web-based Digital Twins for Smart Cities was organized at (1) the <a href="https://www.w3.org/2022/09/14-smartcities-minutes.html">breakout session during TPAC 2022</a> in Vancouver, Canada and (2) another <a href="https://www.w3.org/2023/09/13-smartcities-minutes.html">breakout session during TPAC 2023</a> in Seville, Spain, and representatives from the following standardization organizations discussed the current situation and problems of their standardization work on Smart Cities:</p>
         <ul>
             <li>ECHONET</li>
             <li>IEC SC3D</li>
@@ -228,18 +235,24 @@
             <li>W3C</li>
         </ul>
 
-        <p>As a consequence of the follow-up discussion, the participatns identified that "Digital Twins" would be the key cocept to handle Smart Cities services in a standardizedmanner, and got consensusto continue further discussion on a possible framework of Web-based Digital Twins for Smart Cities within the W3C to cope with remaining issues of Smart Cities.</p>
+        <p>As a consequence, the participatns identified that "Digital Twins" would be the key cocept to handle Smart Cities services in a standardizedmanner, and got consensusto continue further discussion on a possible framework of Web-based Digital Twins for Smart Cities within the W3C to cope with remaining issues of Smart Cities.</p>
 
         <h3>What has been done so far</h3>
         <h4>W3C Web of Things</h4>
         <p>IoT developers face the big problem of “IoT Silos” when creating an
             application including multiple services from different IoT platforms.</p>
 
-        <img class="diagram" alt="IoT Silos" src="./20181203-iot-silos-e.png" width="40%" />
+        <figure>
+        <img class="diagram" alt="IoT Silos" src="./20181203-iot-silos-e.png" width="45%" />
+        <figcaption>IoT Silos</figcaption>
+        </figure>
 
         <p>The W3C Web of Things (WoT) Working Group has been working on standards to counter the fragmentation of the IoT and enable easy integration of IoT devices and services across IoT platforms and application domains by providing a common description across different ecosystems (=WoT Thing Description), standards.</p>
 
-         <img class="diagram" alt="Interconnection using WoT" src="./20181203-plugfest-e.png" width="60%" />
+        <figure>
+        <img class="diagram" alt="Interconnection using WoT" src="./20181203-plugfest-e.png" width="60%" />
+        <figcaption>Interconnection of IoT platforms using WoT as a hub</figcaption>
+        </figure>
 
          <p>WoT standards are now being used for various industry areas including the following:/p>
          <dl>
@@ -281,8 +294,38 @@
              <h3>“Digital Twins” as the Key Concept</h3>
              <p>During the discussions at the TPAC 2022 breakout, it was identified “Digital Twins” would be the key concept for Smart Cities services, and we should start with clarifying the use cases and requirements for “Digital Twins” first.</p>
 
-             <p>Note that there are various definitions for "Digital Twins" like the following, so we’ll work on the common definition for “Digital Twins” as well.</p>
+             <p>Note that there are various definitions for "Digital Twins" all over the world. However, given the collaborative discussion with ITU-T SG20 and ISO/IEC JTC 1/WG11 starting with the Smart Cities Workshop, we'd like to use the following basic definition from "<a href="https://www.itu.int/ITU-T/workprog/wp_item.aspx?isn=18456">Y.4605</a>" as the starting point.</p>
 
+                 <blockquote cite="https://www.itu.int/ITU-T/workprog/wp_item.aspx?isn=18456">
+                 <header>Basic Definition of "Digital Twins"</header>
+                 <p>A digital twin is the digital representation of an object of interest with data connection that enables convergence between the physical state and digital state at an appropriate rate of synchronization. The digital twin has been applied in various industry domains including manufacturing, transportation, energy, firefighting, medical and safety.</p>
+                 <footer>- ITU-T Y.4605: Information exchange model for digital twin federation in smart cities and communities, ITU-T SG20 (in liaison with ISO/IEC JTC 1/SC 41, JTC1/WG11)</footer>
+                 </blockquote>
+
+                 <figure>
+                 <img class="diagram" alt="Digital Twins" src="./20240402-digitaltwins.png" width="80%"/>
+                 <figcaption>Digital Twin Framework</figcaption>
+                 </figure>
+
+                 <p>Digital Twin framework provides a method to applications to handle physical devices by controlling the digital representations of the physical deives on the digital layer based on tha data connection between the digital representations and the physical devices.</p>
+
+                 <p>A possible data connection mechanism for Web-based Digital Twins, which was agreed on during the TPAC 2022 breakout, consists of the following three W3C standards:</p>
+                 <ul>
+                     <li>Decentralized Identifiers (DID): define IDs to identify devices and users on the digigal layer</li>
+                     <li>Web of Things (WoT): define the capability of physical devices so that they can be handled by applications on the digigal layer</li>
+                     <li>Verifiable Credentials (VC): standardized description about user credentials to see what the users can/can't do with the devices on the digigal layer</li>
+                 </ul>
+
+                 <figure>
+                 <img class="diagram" alt="Possible Web-based Digital Twin Platform" src="./20240402-web-based-data-connectin.png" width="50%"/>
+                 <figcaption>Possible Web-based Data Connection Framework for Digital Twins</figcaption>
+                 </figure>
+
+<!--
+            <img class="diagram" alt="Web-based Digital Twins with State Machine" src="./20240402-digitaltwins+statemachine.png" width="50%"/>
+-->
+
+           <p>During the group's discussion, we’ll see the other existing definitions of "Digital Twins" from the other SDOs and actual Smart Cities, and work on further clarifications about the definition of “Web-based Digital Twins”.</p>
       </div>
 
       <section id="scope" class="scope">
@@ -291,8 +334,8 @@
                 <p style="text-align:center;font-weight:bold;">Scope Summary</p>
                 <ul>
                     <li>Identification of stakeholders from the industries, countries/cities and communities to involve in the group's discussion</li>
-                    <li>Survey on the existing technologies and standards for Smart Cities (Technology Landscape)</li>
-                    <li>Best Practices on what technologies, e.g., WoT, Automotive, Geospatial, VR/AR, Speech and Semantic Web, to be applied for what kind of Smart Cities applications, e.g., improved accessibility, visitor guidance and energy management.</li>
+                    <li>Survey on the existing technologies and standards for Smart Cities, e.g., possible building blocks of Digital Twin Framework and standardized Vocabularies for Smart Cities</li>
+                    <li>Best Practices on what kind of technologies to be applied to what kind of Smart Cities applications, e.g., WoT, Automotive, Geospatial, VR/AR, Speech and Semantic Web to be applied to improved accessibility, visitor guidance and energy management</li>
                     <li>Use cases and requirements for Smart Cities</li>
                 </ul>
             </div>
@@ -326,6 +369,7 @@
 
         <p>The topics that the Interest Group will address include but are not limited to:</p>
         <ul>
+          <li>Disaster countermeasure, incluidng (1) prediction and prevention before disasters, (2) information sharing during/right after the disaster and (3) recovery from the disaster;</li>
           <li>Transportation, 
               both public and private;</li>
           <li>Logistics, 
@@ -360,7 +404,7 @@
 	        <li>Internationalization,
               to support diverse populations and tourism.</li>
         </ul>
-        <p>We can speculate about many topics, so need to identfy what the group's key topics are and see what would fit with W3C through the discussion with the existing smart cities.</p>
+        <p>We can speculate about many topics, so need to identfy what the group's key topics are and see what would fit with W3C through the discussion with the existing smart cities. Note that the topics listed above are related to each other, so the relationship among multiple topics should be described as concrete use cases, e.g., which topics to be considered in what kind of situation.</p>
 
         <p>The main tasks that the Interest Group will undertake include:</p>
         <ul>
@@ -404,23 +448,20 @@
         <p>Note that there are many topics to discuss around Smart Cities and
             the scope of the group may become too broad.
 
-        So we'd like to start with discussion about (1) possible Web-based future framework for Digital Twins for Smart Cities and (2) standardized vocabulary for Smart Cities with the related SDOs collaboratively based on the feedback during the TPAC 2022 breakout.
+        So we'd like to start with discussion about the following two points:
+        <ol>
+            <li> what a Web-based Digital Twin framework for for Smart Cities should be like based on the possible Web-based Data Connection Framework for Digital Twins in section 1.6 "Digital Twins” as the Key Concept" above</li>
+            <li> standardized vocabulary for Smart Cities based on the feedback from the Smart Cities stakeholders including the related SDOs and actual Smart Cities</li>
+        </ol>
 
-        A possible candidate framework for that purpose, which was agreed on during the TPAC 2022 breakout, is based on the following W3C standards:</p>
+        <!--
+        <p>To continue further discussion on the common Web-based platform and standardized vocabulary, we'd like to launch a dedicated group:</p>
         <ul>
-            <li>Decentralized Identifiers (DID): define IDs to to identify devices and users</li>
-            <li>Web of Things (WoT): define device capability</li>
-            <li>Verifiable Credentials (VC): standardized description for user credentials</li>
+            <li>to identify and document use cases and requirements that W3C specifications need to meet to support Smart City services,</li>
+            <li>to obtain feedback from all stakeholders on the usage of Web technologies for Smart Cities,</li>
+            <li>to gather expert input on important features for Smart Cities based on the Web technology, and to provide a forum for technical and business discussions related to Smart Cities.</li>
         </ul>
-
-            <img class="diagram" alt="Possible Web-based Digital Twins Platform" src="./wot20.png" width="50%"/>
-
-            <p>To continue further discussion on the common Web-based platform and standardized vocabulary, we'd like to launch a dedicated group:</p>
-            <ul>
-                <li>to identify and document use cases and requirements that W3C specifications need to meet to support Smart City services,</li>
-                <li>to obtain feedback from all stakeholders on the usage of Web technologies for Smart Cities,</li>
-                <li>to gather expert input on important features for Smart Cities based on the Web technology, and to provide a forum for technical and business discussions related to Smart Cities.</li>
-            </ul>
+        -->
 
                 <p>The goal of the group is not to generate standard itself, but to gather pain points, requirements and priorities for Web-based smart cities in the near future. So we need to figure out the focus that W3C can make the most impact. We don't want to duplicate work already done by the other SDOs.</p>
 
@@ -505,24 +546,25 @@
       	<p class="todo">In addition to the above catch-all reference to horizontal review which includes accessibility review, please check with chairs and staff contacts of the <a href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures Working Group</a> to determine if an additional liaison statement with more specific information about concrete review issues is needed in the list below.</p>
 
         <section>
-          <h3 id="w3c-coordination">W3C Groups</h3>
+        <h3 id="w3c-coordination">W3C Groups</h3>
         <dl>
-            <dt class="coord-category">Primary:</dt>
-            <dd><dl>
-                <dt class="coord-org">Web of Things (WoT) IG/WG/CG</dt>
-                    <dd>internet of things, discovery, edge computing)</dd>
+                <dt class="coord-org">Web of Things (WoT) IG/WG/CG/JP-CG</dt>
+                    <dd>internet of things, discovery, edge computing</dd>
+                <dt class="coord-org">Decentralized Identifiers (DID)WG / Verifiable Credentials (VC) WG / Credentials CG</dt>
+                    <dd>identifiers, signing, credentials, authentications</dd>
+
                 <dt class="coord-org">Media and Entertainment IG</dt>
                     <dd>signage, video links</dd>
                 <dt class="coord-org">Web and Networks IG</dt>
                     <dd>edge computing, network metadata</dd>
                 <dt class="coord-org">Publishing BG / Publishing CG / EPUB 3 WG / Publishing WG</dt>
                     <dd>documentation, public communications, multimedia</dd>
-                <dt class="coord-org">Automotive WG</dt>
-                    <dd>v2v comms, geolocation</dd>
+                <dt class="coord-org">Automotive Ontology CG</dt>
+                    <dd>ontologies for automotive purposes</dd>
+                <dt class="coord-org">Automotive Privacy Princeples CG</dt>
+                    <dd>privacy around connected cars</dd>
                 <dt class="coord-org">Spatial Data on the Web IG
                     <dd>geolocation</dd>
-                <dt class="coord-org">Decentralized Identifiers (DID)WG / Verifiable Credentials (VC) WG / Credentials CG</dt>
-                    <dd>identifiers, signing, credentials, authentications</dd>
                 <dt class="coord-org">Dataset Exchange WG</dt>
                     <dd> (geolocation, semantics, data modelling)</li>
                 <dt class="coord-org">Immersive Web WG</dt>
@@ -539,9 +581,6 @@
                     <dd>definition of agriculture use cases</dd>
                 <dt class="coord-org">Linked Building Data CG</dt>
                     <dd>Relationship with smart buildings as part of the geolocation use cacses</dd>
-            </dl></dd>
-            <dt class="coord-category">Secondary:</dt>
-            <dd><dl>
                 <dt class="coord-org">Web Authentication WG</dt>
                     <dd>security, credentials</dd>
                 <dt class="coord-org">Service Workers WG</dt>
@@ -558,7 +597,6 @@
                     <dd>edge computing</dd>
                 <dt class="coord-org">Accessible Infographics CG</dt>
                     <dd>data visualization</dd>
-            </dl></dd>
         </dl>
         </section>
 
@@ -567,35 +605,50 @@
           <dl>
           <dt class="coord-category">SDOs working on Smart Cities:</dt>
           <dd><dl>
-            <dt class="coord-org"><a href="https://www.ietf.org/">IETF:</a></dt>
-            <dd>Coordination on communication protocols, data modelling, 
-                discovery, and security standards.
+            <dt class="coord-org"><!--a href="https://www.ietf.org/"-->IETF:<!--/a--></dt>
+            <dd>communication protocols, data modelling, discovery, and security standards
             </dd>
-            <dt class="coord-org"><a href="https://www.itu.int/">ITU-T:</a></dt>
-            <dd>Coordination on standards for telecommunication technologies
-                and the use cases they enable.
+            <dt class="coord-org"><!--a href="https://www.itu.int/"-->ITU-T:<!--/a--></dt>
+            <dd>standards for telecommunication technologies and the use cases they enable
             </dd>
-            <dt class="coord-org"><a href="https://www.ogc.org/">Open Geospatial Consortium (OGC):</a></dt>
-            <dd>Coordinated standards for geolocation and geographic information systems.</dd>
-            <dt class="coord-org">ISO</dt><dd>tbd</dd>
-            <dt class="coord-org">IEC</dt><dd>tbd</dd>
-            <dt class="coord-org">ISO/IEC JTC1</dt><dd>tbd</dd>
-            <dt class="coord-org">BSI</dt><dd>tbd</dd>
-            <dt class="coord-org">ETSI</dt><dd>tbd</dd>
-            <dt class="coord-org">ECLASS</dt><dd>tbd</dd>
+            <dt class="coord-org"><!--a href="https://www.ogc.org/"-->Open Geospatial Consortium (OGC):<!--/a--></dt>
+            <dd>geolocation and geographic information systems</dd>
+            <dt class="coord-org">ISO</dt><dd>standards on sustainable cities and communites</dd>
+            <dt class="coord-org">IEC</dt><dd>standardized vocabulary for smart cities</dd>
+            <dt class="coord-org">ISO/IEC JTC1</dt><dd>standards on smart city ICT, preresearch work and gap analysis</dd>
+            <dt class="coord-org">BSI</dt><dd>trauted framework to support smart cities and communities</dd>
+            <dt class="coord-org">ETSI</dt><dd>standardization to meet citizen and consumer requirements</dd>
+            <dt class="coord-org">FIWARE</dt><dd>open-source implementations of open standard like NGSI-LD in partnership with ETSI, etc.</dd>
+            <dt class="coord-org">ECLASS</dt><dd>standardized taxonomy, terminology and semantics for smart cities</dd>
+            <dt class="coord-org">ECHONET</dt><dd>smart homes</dd>
+            <dt class="coord-org">IPA DADC</dt><dd>smart buildings</dd>
+            <dt class="coord-org">DTPR</dt><dd>foundation for tranparecy, legibility and accountability of digital technology in built environment</dd>
           </dl></dd>
 
-          <dt class="coord-category">Countries, Cities, Economic Unions and Communities (not limited to but incluiding the following):</dt>
+          <dt class="coord-category">Economic Unions and Communities (not limited to but incluiding the following):</dt>
           <dd><dl>
-              <dt class="coord-org"><a href="https://asean.org/">ASEAN:</a></dt>
+              <dt class="coord-org"><!-- a href="https://asean.org/"-->ASEAN:<!--  /a--></dt>
               <dd>Discussion of smart city use cases and deployments in South-East Asia.</dd>
-                <dt class="coord-org">The World Economic Forum</dt><dd>tbd</dd>
-                <dt class="coord-org">The Smart City Consortium</dt><dd>tbd</dd>
-                <dt class="coord-org">The Smart Cities Council</dt><dd>tbd</dd>
-                <dt class="coord-org">TM Forum</dt><dd>tbd</dd>
-                <dt class="coord-org">Viable Citeis</dt><dd>tbd</dd>
-                <dt class="coord-org">Other countries, cities and communities to be added including developing countries and rural areas</dt>
-          </dl></dd>
+              <dt class="coord-org">The World Economic Forum</dt><dd>improving the state of the world by engaging business, political, academic, and other leaders</dd>
+                <dt class="coord-org">The Smart City Consortium</dt><dd>smart city discussion in Hong Kong, and share the expertise with other professional bodies</dd>
+                <dt class="coord-org">The Smart Cities Council</dt><dd>building cross-sector capability, capacity and colloboration around smart cities</dd>
+                <dt class="coord-org">TM Forum</dt><dd>alliance of 800+ global companies working together to break down technology and cultural barriers</dd>
+                <dt class="coord-org">Viable Cities</dt><dd>climate Neutral Cities 2030 with a good life for all within the limits of the planet</dd>
+                <dt class="coord-org">Other economic unios and communities to be added</li>
+          </dl>
+          <dt class="coord-category">Countries and Cities:</dt>
+          <dd>
+                <ul>
+                    <li>Japan</li>
+                    <li>China</li>
+                    <li>Korea</li>
+                    <li>Singapore</li>
+                    <li>United States</li>
+                    <li>United Kingdom</li>
+                    <li>Brazil</li>
+                    <li>Other countries and cities to be added including developing countries and rural areas</li>
+                </ul>
+          </dd>
           </dl>
         </section>
       </section>
